@@ -11,6 +11,10 @@
   color: #666;
   margin: 10px;
   text-align: center;
+  padding: 1rem;
+  border: 1px solid #888;
+  max-width: 500px;
+  border-radius: 10px;
 }
 
 .left {
@@ -38,11 +42,19 @@
 
 .number {
   background-color: #eee;
-  border: thin solid #ddd;
-  width: 45px;
-  height: 45px;
-  margin: 10px;
-  font-size: 25px;
+    border: thin solid #ddd;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.number:hover {
+  outline: none;
+  border: thin solid #2bd04c;
+  background: #2bd04c !important;
 }
 
 .number:focus, .number:active {
